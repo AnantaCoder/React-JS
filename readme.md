@@ -6,7 +6,7 @@ A modern React.js boilerplate with all the essential configurations pre-set! ⚛
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yourusername/your-repo/blob/main/LICENSE)
 [![React Version](https://img.shields.io/badge/react-18.2.0-blue.svg)](https://reactjs.org/)
-[![Build Status](https://img.shields.io/travis/user/repo/master.svg)](https://travis-ci.org/user/repo)
+[![Build Status](https://img.shields.io/travis/com/anantacoder/React-JS/main.svg)](https://travis-ci.com/anantacoder/React-JS)
 
 <!-- ![Project Screenshot](./screenshot.png)  -->
 
