@@ -20,6 +20,10 @@ A modern React.js boilerplate with all the essential configurations pre-set! ⚛
 - 🧪 Testing with Jest + React Testing Library
 - 📱 Fully responsive design
 
+## 🚀 Projects
+
+- **Password Generator 🔗 **: [View Project](https://password-generator-tau-sand.vercel.app/)
+
 ## 🎥 Demo
 
 ![Component Demo](https://media.giphy.com/media/ABC/components-interaction.gif) <!-- Add your component demo GIF -->

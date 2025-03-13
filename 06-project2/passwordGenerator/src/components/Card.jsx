@@ -49,7 +49,7 @@ export default function Card() {
         <label className="text-gray-700 font-medium">Password Length: {length}</label>
         <input
           type="range"
-          min="6"
+          min="8"
           max="20"
           value={length}
           onChange={(e) => setLength(Number(e.target.value))}
