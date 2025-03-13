@@ -22,7 +22,7 @@ A modern React.js boilerplate with all the essential configurations pre-set! ⚛
 
 ## 🚀 Projects
 
-- **Password Generator 🔗 **: [View Project](https://password-generator-tau-sand.vercel.app/)
+- **Password Generator** 🔗: [View Project](https://password-generator-tau-sand.vercel.app/)
 
 ## 🎥 Demo
 
