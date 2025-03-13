@@ -1,0 +1,3 @@
+props makes the card reusable and show diffrents values 
+
+props is a object so its props.username using it can be called . 
