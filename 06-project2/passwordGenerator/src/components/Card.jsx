@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 
 export default function Card() {
   const [length, setLength] = useState(8);
@@ -20,12 +20,19 @@ export default function Card() {
 
     setPassword(pass);
   }, [length, numberAllowed, charactersAllowed]);
-
+  // useRef
+  const passwordRef = useRef(null)
   const copyToClipboard = () => {
-    navigator.clipboard.writeText(password);
+
+    passwordRef.current?.select()
+    // passwordRef.current.setSelectionRange(0,3)
+    window.navigator.clipboard.writeText(password);
     alert("Password copied to clipboard!");
   };
 
+  useEffect(()=>{
+    passwordGenerator()
+  },[length,numberAllowed,charactersAllowed,passwordGenerator])
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100 font-mono">
       <h1 className="text-3xl font-bold mb-6 text-gray-800">Password Generator Pro</h1>
@@ -39,7 +46,7 @@ export default function Card() {
         />
         <button
           onClick={passwordGenerator}
-          className="p-3 bg-amber-500 text-white font-bold rounded-lg hover:bg-amber-600 transition"
+          className="p-3 cursor-pointer bg-amber-500 text-white font-bold rounded-lg hover:bg-amber-600 transition"
         >
           Generate
         </button>
