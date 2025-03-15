@@ -22,11 +22,12 @@ A modern React.js boilerplate with all the essential configurations pre-set! ⚛
 
 ## 🚀 Projects
 
-- **Password Generator** 🔗: [View Project](https://password-generator-tau-sand.vercel.app/)
+ 1. **Password Generator** 🔗: [View Project](https://password-generator-tau-sand.vercel.app/)
+ 2. **Type Monkey** 🔗: [View Project](https://typemonkey-jade.vercel.app/)
 
 ## 🎥 Demo
 
-![Component Demo](https://media.giphy.com/media/ABC/components-interaction.gif) <!-- Add your component demo GIF -->
+![Component Demo](https://media.giphy.com/media/ABC/components-interaction.gif) 
 
 ## 🛠 Installation
 
