@@ -28,7 +28,7 @@ A modern React.js boilerplate with all the essential configurations pre-set! ⚛
 
 ## 🎥 Demo
 
-![Component Demo](https://media.giphy.com/media/ABC/components-interaction.gif) 
+![Component Demo](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3AxemxxeHNpbzh5em93bTV3YWsxMTJpcm8wcjc5bnltbTV6NzZiYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CTX0ivSQbI78A/giphy.gif) 
 
 ## 🛠 Installation
 
