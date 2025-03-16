@@ -24,7 +24,7 @@ A modern React.js boilerplate with all the essential configurations pre-set! ⚛
 
  1. **Password Generator** 🔗: [View Project](https://password-generator-tau-sand.vercel.app/)
  2. **Type Monkey** 🔗: [View Project](https://typemonkey-jade.vercel.app/)
- 2. **Currency Converter** 🔗: [View Project](https://currencyconverter-lake-eight.vercel.app/)
+ 2. **Currency Converter** 🔗: [View Project](https://currencyconverter-pink.vercel.app/)
 
 ## 🎥 Demo
 
