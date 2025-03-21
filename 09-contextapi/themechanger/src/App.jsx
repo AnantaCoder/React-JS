@@ -24,11 +24,11 @@ function App() {
     html.classList.remove("light", "dark");
     html.classList.add(themeMode);
   }, [themeMode]);
-  
-
+  //Provides theme context to all child components
+//provider
   return (
     <ThemeProvider value={{themeMode, lightTheme, darkTheme}}>
-      <div className="flex flex-wrap min-h-screen items-center">
+      <div className="flex flex-wrap min-h-screen items-center dark:bg-amber-600">
           <div className="w-full">
               <div className="w-full max-w-sm mx-auto flex justify-end mb-4">
                   <ThemeBtn />
@@ -44,3 +44,10 @@ function App() {
 }
 
 export default App
+
+// Why We Can't Move App.jsx Logic to ThemeBtn
+// Fundamental Limitation:
+
+// Providers must exist higher in the component tree than consumers
+
+// ThemeBtn is a child component - its context wouldn't be available to parent/sibling components

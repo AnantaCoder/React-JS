@@ -1,6 +1,6 @@
 import React from 'react'
 import useTheme from '../contexts/theme';
-
+//consumer
 export default function ThemeBtn() {
     
     const {themeMode, lightTheme, darkTheme} = useTheme()
@@ -8,12 +8,14 @@ export default function ThemeBtn() {
         const darkModeStatus = e.currentTarget.checked
         if (darkModeStatus) {
             darkTheme()
+            console.log("dark mode on")
         } else {
             lightTheme()
+            console.log("dark mode off")
         }
     }
     return (
-        <label className="relative inline-flex items-center cursor-pointer">
+        <label className="relative inline-flex items-center cursor-pointer ">
             <input
                 type="checkbox"
                 value=""
