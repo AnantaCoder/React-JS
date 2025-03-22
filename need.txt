@@ -1,0 +1,9 @@
+1. Python, Django, Flask
+2. REST API Development
+3. NumPy, Pandas for Data Processing
+4. PostgreSQL/MySQL & SQL Query Optimization
+5. Cloud Platforms (AWS/Azure)
+6. Deployment & Containerization (Docker, Kubernetes)
+7. Front-end (Preferred): JavaScript, React/Angular
+8. Hands-on experience with Docker, Kubernetes, and CI/CD pipelines.
+
