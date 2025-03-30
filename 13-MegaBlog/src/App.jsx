@@ -24,11 +24,11 @@ function App() {
   }, [dispatch]);
 
   return loading ? ( 
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center dark:bg-gray-500 items-center min-h-screen">
       <p className="text-lg font-semibold">Loading...</p>
     </div>
   ) : (
-    <div className="flex flex-col min-h-screen bg-gray-100">
+    <div className="flex flex-col  dark:bg-gray-500 min-h-screen bg-gray-100">
       <Header />
       <main className="flex-grow container mx-auto p-4">
         {/* <Outlet /> ✅ Enable routing */}
