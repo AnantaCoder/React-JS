@@ -1,0 +1,17 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Color & Theme */
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  
+  /* Gradient Background */
+  background: linear-gradient(to right, #7c3aed, #4f46e5); /* Violet to Indigo */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
