@@ -26,6 +26,7 @@ A modern React.js boilerplate with all the essential configurations pre-set! ⚛
  2. **Type Monkey** 🔗: [View Project](https://typemonkey-jade.vercel.app/)
  3. **Currency Converter** 🔗: [View Project](https://currencyconverter-pink.vercel.app/)
  4. **Pomodoro Timer** 🔗: [View Project](https://pomodoro-one-alpha.vercel.app/)
+ 5. **Projects Manager** 🔗: [View Project](https://projectmanagement-orcin.vercel.app/)
 
 ## 🎥 Demo
 
